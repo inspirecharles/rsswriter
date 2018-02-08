@@ -1,0 +1,25 @@
+{
+	"name": "inspirecharles/rsswriter",
+	"description": "Yii2 module for automatically generation RSS 2.0 feeds",
+	"keywords": ["yii2", "rss", "writer", "module"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/inspirecharles/rsswriter",
+        "issues": "https://github.com/inspirecharles/rsswriter/issues"
+	},
+	"authors": [
+        {
+            "name": "Charles",
+            "homepage" : "https://github.com/"
+        }
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+            "inspirecharles\\rss\\": ""
+        }
+	}
+}
